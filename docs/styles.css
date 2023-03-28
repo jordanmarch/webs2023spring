@@ -1,38 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    color: ;
-    background-color: ;
-    font-size: ;
+    height: 1200px;
+    color: rgb(128, 0, 83);
+    background-color: rgb(225, 220, 213);
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
-    font-size: ;
+    font-size: 70px;
 }
 h2 {
-    font-size: ;
+    font-size: 25px;
 }
-ul {
-    list-style: none;
+h3 {
+    font-size: 20px;
 }
-#mainMenu {
-    margin: 10px;
-    width: 900px;
-    font-family: ;
+h4 {
+    font-size: 15px;
+    color: rgb(164, 79, 134); 
 }
-#mainMenu li {
-    display: block;
-    width: 120px;
-    float: left;
-    margin-left: 2px;
-    border: 1px solid #000;
-}
-#mainMenu a {
-    display: block;
-    padding: 3px;
+
+a:link,
+a:visited {
+    color: rgb(128, 0, 83);
     text-decoration: none;
-    background-color: #fff;
-    color: #009;
 }
-#mainMenu a:hover {
-    background-color: #009;
-    color: #fff;
+a:hover {
+    text-decoration: none;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 50px;
+    background: rgb(225, 220, 213);
+}
+
+.menu {
+    margin-top: 15px;
+}
+.menu > li {
+    display: inline;
+    margin-right: 50px;
+}
+.menu > li: :last-of-type {
+    margin-right: 0;
+}
+
+.greeting {
+    float: left;
+    width: 700px;
+    height: 500px;
+    padding-top: 250px;
+    padding-left: 150px;
+    background-color: rgb(225, 220, 213);
+}
+
+.info {
+    float: right;
+    width: 650px;
+    height: 400px;
+    padding-top: 250px;
+    padding-right: 150px;
 }
