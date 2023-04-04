@@ -69,3 +69,8 @@ a:visited:active {
 p:last-of-type {
     margin-bottom: 50px;
 }
+
+.call-to-action:link,
+.call-to-action:visited {
+    background-color: #D55C5F; /* red */
+}
