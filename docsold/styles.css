@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "opendyslexic";
+    src: url("OpenDyslexic-Regular.otf") format("opentype");
+}
+
+body {
+    height: 1200px;
+    color: rgb(114, 0, 74);
+    background-color: rgb(22, 22, 22);
+    font-size: 18px;
+    font-family: "opendyslexic";
+}
+
+h1 {
+    font-size: 320px;
+    color: rgb(238, 238, 238);
+    line-height: 300px;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 1rem; 
+}
+h3 {
+    font-size: 25px;
+    color: rgb(114, 0, 74)
+}
+h4 {
+    font-size: 18px;
+    color: rgb(164, 79, 134); 
+    font-style: italic;
+}
+
+h5 {
+    font-size: 40px;
+    color:rgb(114, 0, 74);
+}
+
+h6 {
+    font-size: 50px;
+    color: rgb(164, 79, 134); 
+}
+h7 {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    margin-bottom: 1rem; 
+}
+
+p {
+    font-size: 1em; 
+    line-height:2.2em; 
+    margin-bottom: 1.5em;
+
+}
+
+
+
+a:link,
+a:visited {
+    color: rgb(114, 0, 74);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(164, 79, 134);
+    text-decoration: none;
+}
+a:active {
+    color: rgb(164, 79, 134);
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    padding-left: 400px;
+    padding-bottom: 20px;
+    background: rgb(22, 22, 22);
+}
+
+ul {
+   list-style-type: none; 
+}
+
+.menu {
+    margin-top: 25px;
+}
+.menu > li {
+    display: inline;
+    margin-left: 5rem;
+    margin-right: 1rem;
+
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(164, 79, 134); 
+
+}
+.menu > li: :last-of-type {
+    margin-left: 0;
+}
+
+.greetinghome {
+    float: left;
+    width: 700px;
+    height: 500px;
+    padding-top: 20px;
+    padding-left: 30px;
+    background-color: rgb(22, 22, 22);
+}
+
+.greeting {
+    float: left;
+    width: 130px;
+    padding-top: 70px;
+    padding-left: 30px;
+    background-color: rgb(22, 22, 22);
+}
+
+.homenav{
+    float: right;
+    width: 300px;
+    height: 400px;
+    padding-top: 250px;
+    padding-right: 120px;
+}
+
+.writingtitle {
+    float: right;
+    width: 800px;
+    padding-right: 120px;
+}
+.writingbody {
+    float: left;
+    width: 1000px;
+    padding-top: 300px;
+    padding-left: 3em;
+}
+
+.aboutbody {
+    float: left;
+    width: 500px;
+    padding-top: 300px;
+    padding-left: 3em;
+}
+
+.info {
+    float: right;
+    width: 650px;
+    height: 400px;
+    padding-top: 250px;
+    padding-right: 150px;
+}
+
+.gallery {
+    float: inline-end;
+    width: 70.25em;
+    display: grid;
+    gap: 0em;
+    padding-left: 9.5em;
+    grid-template-columns: repeat(2, 1fr);
+}
+.gallery2 {
+    float: left;
+    width: 31.25em;
+    display: grid;
+    gap: 1em;
+    padding-left: 1.5em;
+    scroll-top: 20em;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.digitalbody {
+    
+    max-width: 30em;
+    padding: 10px;
+    text-align: right;
+    padding-top: 5em;
+    padding-left: 7em;
+    
+}
+.digitalcontent {
+    width: 1em;
+    padding: 0.5em;
+}
+
