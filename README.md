@@ -25,4 +25,4 @@ I believe I did hit all of the baseline criteria. I have 5 navigable main pages 
 For aspirational criteria, I think my images are laid out in a clear and organized pattern and there are links to pdf files. I still have a ways to go with aspirational criteria though, and I plan to continue working on my website until the end of the semester. Moving forward, I hope to make my pages responsive, include better alt text for all images, change the color scheme to make it more accessible, and possibly change the fonts. I also want to add a footer so there is space at the bottom of the page, not just text hitting the bottom. Overall, I hope to continue making my website more accessible since that is so important.
 
 **Final reflections:**
-(Available in Ben Miller's final portfolio issue queue)[.....]
+Available in [my final portfolio](https://github.com/benmiller314/cdm2023spring/issues/15#issuecomment-1522457445) within Ben Miller's final portfolio issue queue
